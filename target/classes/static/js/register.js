@@ -15,7 +15,7 @@ function fetchUsers() {
                     <p>ID: ${user.id}</p>
                     <p>Nombre: ${user.nombre}</p>
                     <p>Edad: ${user.edad}</p>
-                    <p>Membresía: ${user.membresia}</p>
+                    <p>Password: ${user.password}</p>
                     <button onclick="deleteUser(${user.id})">Eliminar</button>
                 `;
                 userList.appendChild(userItem);
@@ -26,12 +26,12 @@ function fetchUsers() {
 function createUser() {
     const nombre = document.getElementById('nombre').value;
     const edad = document.getElementById('edad').value;
-    const membresia = document.getElementById('membresia').value;
+    const password = document.getElementById('password').value;
 
     fetch('/api/users', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ nombre, edad, membresia })
+        body: JSON.stringify({ nombre, edad, password })
     })
     .then(response => response.json())
     .then(data => {

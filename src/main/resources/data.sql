@@ -2,5 +2,5 @@ CREATE TABLE IF NOT EXISTS users (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255),
     edad INT,
-    membresia VARCHAR(255)
+    password VARCHAR(255)
 );

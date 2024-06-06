@@ -16,7 +16,7 @@ function loadProfile() {
         .then(data => {
             document.getElementById('nombre').innerText = data.nombre;
             document.getElementById('edad').innerText = data.edad;
-            document.getElementById('membresia').innerText = data.membresia;
+            document.getElementById('password').innerText = data.password;
         })
         .catch(error => {
             document.getElementById('profile').innerHTML = `

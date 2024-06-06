@@ -16,7 +16,7 @@ public class User {
 
  private String nombre;
  private int edad;
- private String membresia;
+ private String password;
 
  public User() {
   // Constructor sin argumentos
@@ -47,11 +47,11 @@ public class User {
   this.edad = edad;
  }
 
- public String getMembresia() {
-  return membresia;
+ public String getPassword() {
+  return password;
  }
 
- public void setMembresia(String membresia) {
-  this.membresia = membresia;
+ public void setPassword(String password) {
+  this.password = password;
  }
 }

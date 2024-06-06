@@ -400,3 +400,1368 @@ Database is already closed (to disable automatic closing at VM shutdown, add ";D
         u1_0.nombre 
     from
         users u1_0
+2024-06-06T11:21:16.346+02:00  WARN 25880 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m53s353ms189µs).
+2024-06-06T14:22:17.630+02:00  WARN 25880 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m47s578ms362µs300ns).
+2024-06-06T14:23:08.876+02:00 DEBUG 25880 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:23:08.907+02:00  WARN 25880 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:08.907+02:00 ERROR 25880 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?) [42104-214]
+2024-06-06T14:23:08.938+02:00  WARN 25880 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?)]]
+2024-06-06T14:23:13.303+02:00 DEBUG 25880 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:23:13.304+02:00  WARN 25880 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:13.304+02:00 ERROR 25880 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.edad,u1_0.membresia,u1_0.nombre from users u1_0 [42104-214]
+2024-06-06T14:23:13.305+02:00  WARN 25880 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [select u1_0.id,u1_0.edad,u1_0.membresia,u1_0.nombre from users u1_0]]
+2024-06-06T14:23:16.176+02:00 DEBUG 25880 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:23:16.176+02:00  WARN 25880 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:16.177+02:00 ERROR 25880 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?) [42104-214]
+2024-06-06T14:23:16.177+02:00  WARN 25880 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?)]]
+2024-06-06T14:23:17.975+02:00 DEBUG 25880 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:23:17.975+02:00  WARN 25880 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:17.976+02:00 ERROR 25880 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?) [42104-214]
+2024-06-06T14:23:17.976+02:00  WARN 25880 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?)]]
+2024-06-06T14:23:18.353+02:00 DEBUG 25880 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:23:18.354+02:00  WARN 25880 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:18.354+02:00 ERROR 25880 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?) [42104-214]
+2024-06-06T14:23:18.354+02:00  WARN 25880 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?)]]
+2024-06-06T14:23:18.521+02:00 DEBUG 25880 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:23:18.522+02:00  WARN 25880 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:18.522+02:00 ERROR 25880 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?) [42104-214]
+2024-06-06T14:23:18.522+02:00  WARN 25880 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?)]]
+2024-06-06T14:23:18.667+02:00 DEBUG 25880 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:23:18.668+02:00  WARN 25880 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:18.668+02:00 ERROR 25880 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?) [42104-214]
+2024-06-06T14:23:18.668+02:00  WARN 25880 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?)]]
+2024-06-06T14:23:18.826+02:00 DEBUG 25880 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:23:18.827+02:00  WARN 25880 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:18.827+02:00 ERROR 25880 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?) [42104-214]
+2024-06-06T14:23:18.828+02:00  WARN 25880 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?)]]
+2024-06-06T14:23:18.973+02:00 DEBUG 25880 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:23:18.973+02:00  WARN 25880 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:18.974+02:00 ERROR 25880 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?) [42104-214]
+2024-06-06T14:23:18.974+02:00  WARN 25880 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?)]]
+2024-06-06T14:23:19.614+02:00 DEBUG 25880 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:23:19.615+02:00  WARN 25880 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 42104, SQLState: 42S04
+2024-06-06T14:23:19.615+02:00 ERROR 25880 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table "USERS" not found (this database is empty); SQL statement:
+insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?) [42104-214]
+2024-06-06T14:23:19.615+02:00  WARN 25880 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into users (id, edad, membresia, nombre) values (default, ?, ?, ?)]]
+2024-06-06T14:23:30.120+02:00  INFO 25880 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:23:30.120+02:00  INFO 25880 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T14:23:30.120+02:00 DEBUG 25880 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:23:30.510+02:00  WARN 25880 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T14:23:30.510+02:00  INFO 25880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T14:23:30.666+02:00  INFO 25880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T14:23:55.489+02:00  INFO 21164 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 21164 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T14:23:55.489+02:00 DEBUG 21164 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T14:23:55.489+02:00  INFO 21164 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T14:23:55.571+02:00  INFO 21164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T14:23:55.571+02:00  INFO 21164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T14:23:56.016+02:00  INFO 21164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T14:23:56.063+02:00  INFO 21164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2024-06-06T14:23:56.875+02:00  INFO 21164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T14:23:56.891+02:00  INFO 21164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T14:23:56.891+02:00  INFO 21164 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T14:23:56.969+02:00  INFO 21164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T14:23:56.969+02:00  INFO 21164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1395 ms
+2024-06-06T14:23:57.000+02:00  INFO 21164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T14:23:57.219+02:00  INFO 21164 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T14:23:57.219+02:00  INFO 21164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T14:23:57.235+02:00  INFO 21164 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T14:23:57.422+02:00  INFO 21164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T14:23:57.500+02:00  INFO 21164 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T14:23:57.750+02:00  WARN 21164 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T14:23:57.907+02:00  INFO 21164 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T14:23:58.563+02:00 DEBUG 21164 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:23:58.563+02:00 DEBUG 21164 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        membresia varchar(255),
+        nombre varchar(255),
+        primary key (id)
+    )
+2024-06-06T14:23:58.563+02:00  INFO 21164 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T14:23:58.579+02:00  INFO 21164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:23:58.813+02:00  WARN 21164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T14:23:58.954+02:00  INFO 21164 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T14:23:59.172+02:00  INFO 21164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T14:23:59.204+02:00  INFO 21164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T14:23:59.219+02:00  INFO 21164 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 4.195 seconds (process running for 4.683)
+2024-06-06T14:24:19.118+02:00  INFO 21164 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T14:24:19.118+02:00  INFO 21164 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T14:24:19.118+02:00  INFO 21164 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T14:24:21.518+02:00 DEBUG 21164 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:24:24.507+02:00 DEBUG 21164 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:24:25.713+02:00 DEBUG 21164 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:31:51.953+02:00 DEBUG 21164 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:31:57.791+02:00 DEBUG 21164 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:31:58.927+02:00 DEBUG 21164 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:36:33.939+02:00  INFO 21164 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:36:33.939+02:00  INFO 21164 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T14:36:33.939+02:00 DEBUG 21164 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:36:34.329+02:00  WARN 21164 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T14:36:34.329+02:00  INFO 21164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T14:36:34.485+02:00  INFO 21164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T14:36:50.101+02:00  INFO 20328 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 20328 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T14:36:50.101+02:00 DEBUG 20328 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T14:36:50.101+02:00  INFO 20328 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T14:36:50.179+02:00  INFO 20328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T14:36:50.179+02:00  INFO 20328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T14:36:50.634+02:00  INFO 20328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T14:36:50.681+02:00  INFO 20328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2024-06-06T14:36:51.493+02:00  INFO 20328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T14:36:51.493+02:00  INFO 20328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T14:36:51.493+02:00  INFO 20328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T14:36:51.555+02:00  INFO 20328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T14:36:51.555+02:00  INFO 20328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1376 ms
+2024-06-06T14:36:51.587+02:00  INFO 20328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T14:36:51.790+02:00  INFO 20328 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T14:36:51.790+02:00  INFO 20328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T14:36:51.806+02:00  INFO 20328 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T14:36:51.978+02:00  INFO 20328 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T14:36:52.024+02:00  INFO 20328 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T14:36:52.228+02:00  WARN 20328 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T14:36:52.368+02:00  INFO 20328 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T14:36:52.962+02:00 DEBUG 20328 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:36:52.978+02:00 DEBUG 20328 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        membresia varchar(255),
+        nombre varchar(255),
+        primary key (id)
+    )
+2024-06-06T14:36:52.978+02:00  INFO 20328 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T14:36:52.978+02:00  INFO 20328 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:36:53.228+02:00  WARN 20328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T14:36:53.368+02:00  INFO 20328 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T14:36:53.556+02:00  INFO 20328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T14:36:53.587+02:00  INFO 20328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T14:36:53.603+02:00  INFO 20328 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 3.981 seconds (process running for 4.485)
+2024-06-06T14:37:06.035+02:00  INFO 20328 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T14:37:06.035+02:00  INFO 20328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T14:37:06.035+02:00  INFO 20328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T14:37:08.414+02:00 DEBUG 20328 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:37:11.709+02:00 DEBUG 20328 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:37:13.171+02:00 DEBUG 20328 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:38:58.612+02:00  INFO 20328 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:38:58.612+02:00  INFO 20328 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T14:38:58.612+02:00 DEBUG 20328 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:38:59.003+02:00  WARN 20328 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T14:38:59.003+02:00  INFO 20328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T14:38:59.159+02:00  INFO 20328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T14:39:07.502+02:00  INFO 7720 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 7720 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T14:39:07.502+02:00 DEBUG 7720 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T14:39:07.502+02:00  INFO 7720 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T14:39:07.583+02:00  INFO 7720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T14:39:07.583+02:00  INFO 7720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T14:39:08.016+02:00  INFO 7720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T14:39:08.047+02:00  INFO 7720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2024-06-06T14:39:08.875+02:00  INFO 7720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T14:39:08.891+02:00  INFO 7720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T14:39:08.891+02:00  INFO 7720 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T14:39:08.953+02:00  INFO 7720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T14:39:08.953+02:00  INFO 7720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1370 ms
+2024-06-06T14:39:08.984+02:00  INFO 7720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T14:39:09.188+02:00  INFO 7720 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T14:39:09.188+02:00  INFO 7720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T14:39:09.203+02:00  INFO 7720 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T14:39:09.375+02:00  INFO 7720 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T14:39:09.438+02:00  INFO 7720 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T14:39:09.657+02:00  WARN 7720 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T14:39:09.828+02:00  INFO 7720 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T14:39:10.438+02:00 DEBUG 7720 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:39:10.454+02:00 DEBUG 7720 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        membresia varchar(255),
+        nombre varchar(255),
+        primary key (id)
+    )
+2024-06-06T14:39:10.454+02:00  INFO 7720 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T14:39:10.469+02:00  INFO 7720 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:39:10.688+02:00  WARN 7720 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T14:39:10.829+02:00  INFO 7720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T14:39:11.016+02:00  INFO 7720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T14:39:11.063+02:00  INFO 7720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T14:39:11.063+02:00  INFO 7720 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 4.029 seconds (process running for 4.51)
+2024-06-06T14:39:20.414+02:00  INFO 7720 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T14:39:20.414+02:00  INFO 7720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T14:39:20.414+02:00  INFO 7720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T14:39:20.711+02:00 DEBUG 7720 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:39:23.617+02:00 DEBUG 7720 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:39:24.870+02:00 DEBUG 7720 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:39:24.932+02:00 DEBUG 7720 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T14:41:37.982+02:00  WARN 7720 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s680ms146µs900ns).
+2024-06-06T14:44:17.955+02:00  INFO 7720 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:44:17.955+02:00  INFO 7720 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T14:44:17.955+02:00 DEBUG 7720 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:44:18.346+02:00  WARN 7720 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T14:44:18.346+02:00  INFO 7720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T14:44:18.502+02:00  INFO 7720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T14:44:27.892+02:00  INFO 27608 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 27608 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T14:44:27.892+02:00 DEBUG 27608 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T14:44:27.892+02:00  INFO 27608 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T14:44:27.970+02:00  INFO 27608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T14:44:27.970+02:00  INFO 27608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T14:44:28.392+02:00  INFO 27608 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T14:44:28.439+02:00  INFO 27608 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2024-06-06T14:44:29.251+02:00  INFO 27608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T14:44:29.251+02:00  INFO 27608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T14:44:29.267+02:00  INFO 27608 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T14:44:29.329+02:00  INFO 27608 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T14:44:29.329+02:00  INFO 27608 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
+2024-06-06T14:44:29.360+02:00  INFO 27608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T14:44:29.548+02:00  INFO 27608 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T14:44:29.548+02:00  INFO 27608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T14:44:29.548+02:00  INFO 27608 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T14:44:29.704+02:00  INFO 27608 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T14:44:29.751+02:00  INFO 27608 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T14:44:29.923+02:00  WARN 27608 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T14:44:30.064+02:00  INFO 27608 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T14:44:30.673+02:00 DEBUG 27608 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:44:30.673+02:00 DEBUG 27608 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        membresia varchar(255),
+        nombre varchar(255),
+        primary key (id)
+    )
+2024-06-06T14:44:30.689+02:00  INFO 27608 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T14:44:30.689+02:00  INFO 27608 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:44:30.939+02:00  WARN 27608 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T14:44:31.080+02:00  INFO 27608 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T14:44:31.283+02:00  INFO 27608 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T14:44:31.314+02:00  INFO 27608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T14:44:31.330+02:00  INFO 27608 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 3.905 seconds (process running for 4.363)
+2024-06-06T14:44:38.599+02:00  INFO 27608 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T14:44:38.599+02:00  INFO 27608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T14:44:38.599+02:00  INFO 27608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T14:44:40.589+02:00 DEBUG 27608 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:44:43.668+02:00 DEBUG 27608 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:44:45.359+02:00 DEBUG 27608 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:44:45.406+02:00 DEBUG 27608 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T14:50:43.046+02:00  INFO 27608 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:50:43.046+02:00  INFO 27608 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T14:50:43.046+02:00 DEBUG 27608 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:50:43.437+02:00  WARN 27608 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T14:50:43.437+02:00  INFO 27608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T14:50:43.593+02:00  INFO 27608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T14:50:53.719+02:00  INFO 38044 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 38044 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T14:50:53.719+02:00 DEBUG 38044 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T14:50:53.719+02:00  INFO 38044 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T14:50:53.795+02:00  INFO 38044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T14:50:53.795+02:00  INFO 38044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T14:50:54.240+02:00  INFO 38044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T14:50:54.287+02:00  INFO 38044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2024-06-06T14:50:55.099+02:00  INFO 38044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T14:50:55.115+02:00  INFO 38044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T14:50:55.115+02:00  INFO 38044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T14:50:55.178+02:00  INFO 38044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T14:50:55.178+02:00  INFO 38044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1383 ms
+2024-06-06T14:50:55.209+02:00  INFO 38044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T14:50:55.412+02:00  INFO 38044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T14:50:55.412+02:00  INFO 38044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T14:50:55.428+02:00  INFO 38044 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T14:50:55.615+02:00  INFO 38044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T14:50:55.662+02:00  INFO 38044 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T14:50:55.865+02:00  WARN 38044 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T14:50:56.006+02:00  INFO 38044 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T14:50:56.655+02:00 DEBUG 38044 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T14:50:56.655+02:00 DEBUG 38044 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        membresia varchar(255),
+        nombre varchar(255),
+        primary key (id)
+    )
+2024-06-06T14:50:56.655+02:00  INFO 38044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T14:50:56.671+02:00  INFO 38044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T14:50:56.905+02:00  WARN 38044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T14:50:57.046+02:00  INFO 38044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T14:50:57.233+02:00  INFO 38044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T14:50:57.264+02:00  INFO 38044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T14:50:57.264+02:00  INFO 38044 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 4.014 seconds (process running for 4.495)
+2024-06-06T14:51:00.373+02:00  INFO 38044 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T14:51:00.373+02:00  INFO 38044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T14:51:00.373+02:00  INFO 38044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T14:51:02.443+02:00 DEBUG 38044 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:51:07.595+02:00 DEBUG 38044 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T14:51:08.826+02:00 DEBUG 38044 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T14:51:08.872+02:00 DEBUG 38044 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T18:12:53.725+02:00  WARN 38044 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h53m57s731ms819µs).
+2024-06-06T18:14:26.352+02:00  INFO 38044 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:14:26.352+02:00  INFO 38044 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T18:14:26.352+02:00 DEBUG 38044 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:14:26.747+02:00  WARN 38044 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T18:14:26.747+02:00  INFO 38044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T18:14:26.887+02:00  INFO 38044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T18:16:39.580+02:00  INFO 29992 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 29992 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T18:16:39.580+02:00 DEBUG 29992 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T18:16:39.580+02:00  INFO 29992 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T18:16:39.671+02:00  INFO 29992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T18:16:39.671+02:00  INFO 29992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T18:16:40.092+02:00  INFO 29992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T18:16:40.139+02:00  INFO 29992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2024-06-06T18:16:40.967+02:00  INFO 29992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T18:16:40.982+02:00  INFO 29992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T18:16:40.982+02:00  INFO 29992 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T18:16:41.045+02:00  INFO 29992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:16:41.045+02:00  INFO 29992 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1374 ms
+2024-06-06T18:16:41.076+02:00  INFO 29992 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T18:16:41.264+02:00  INFO 29992 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T18:16:41.279+02:00  INFO 29992 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T18:16:41.279+02:00  INFO 29992 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T18:16:41.467+02:00  INFO 29992 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T18:16:41.529+02:00  INFO 29992 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T18:16:41.717+02:00  WARN 29992 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T18:16:41.873+02:00  INFO 29992 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T18:16:42.483+02:00 DEBUG 29992 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:16:42.483+02:00 DEBUG 29992 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        membresia varchar(255),
+        nombre varchar(255),
+        primary key (id)
+    )
+2024-06-06T18:16:42.483+02:00  INFO 29992 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T18:16:42.498+02:00  INFO 29992 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:16:42.718+02:00  WARN 29992 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T18:16:42.859+02:00  INFO 29992 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T18:16:43.093+02:00  INFO 29992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T18:16:43.124+02:00  INFO 29992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T18:16:43.140+02:00  INFO 29992 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 4.034 seconds (process running for 4.511)
+2024-06-06T18:17:26.626+02:00  INFO 29992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:17:26.626+02:00  INFO 29992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:17:26.626+02:00  INFO 29992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T18:17:28.453+02:00 DEBUG 29992 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:17:39.054+02:00 DEBUG 29992 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T18:17:39.953+02:00 DEBUG 29992 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:17:40.007+02:00 DEBUG 29992 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T18:22:52.310+02:00  INFO 29992 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:22:52.310+02:00  INFO 29992 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T18:22:52.310+02:00 DEBUG 29992 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:22:52.701+02:00  WARN 29992 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T18:22:52.701+02:00  INFO 29992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T18:22:52.854+02:00  INFO 29992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T18:22:59.260+02:00  INFO 2244 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 2244 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T18:22:59.260+02:00 DEBUG 2244 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T18:22:59.260+02:00  INFO 2244 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T18:22:59.331+02:00  INFO 2244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T18:22:59.331+02:00  INFO 2244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T18:22:59.776+02:00  INFO 2244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T18:22:59.823+02:00  INFO 2244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2024-06-06T18:23:00.635+02:00  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T18:23:00.651+02:00  INFO 2244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T18:23:00.651+02:00  INFO 2244 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T18:23:00.714+02:00  INFO 2244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:23:00.714+02:00  INFO 2244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1383 ms
+2024-06-06T18:23:00.745+02:00  INFO 2244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T18:23:00.932+02:00  INFO 2244 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T18:23:00.932+02:00  INFO 2244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T18:23:00.948+02:00  INFO 2244 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T18:23:01.120+02:00  INFO 2244 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T18:23:01.167+02:00  INFO 2244 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T18:23:01.339+02:00  WARN 2244 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T18:23:01.495+02:00  INFO 2244 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T18:23:02.129+02:00 DEBUG 2244 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:23:02.129+02:00 DEBUG 2244 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        membresia varchar(255),
+        nombre varchar(255),
+        primary key (id)
+    )
+2024-06-06T18:23:02.129+02:00  INFO 2244 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T18:23:02.145+02:00  INFO 2244 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:23:02.395+02:00  WARN 2244 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T18:23:02.535+02:00  INFO 2244 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T18:23:02.723+02:00  INFO 2244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T18:23:02.754+02:00  INFO 2244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T18:23:02.769+02:00  INFO 2244 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 3.981 seconds (process running for 4.451)
+2024-06-06T18:23:07.260+02:00  INFO 2244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:23:07.260+02:00  INFO 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:23:07.260+02:00  INFO 2244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T18:23:07.361+02:00 DEBUG 2244 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T18:23:11.176+02:00 DEBUG 2244 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:23:21.033+02:00 DEBUG 2244 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:23:28.854+02:00 DEBUG 2244 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T18:23:29.912+02:00 DEBUG 2244 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:23:29.951+02:00 DEBUG 2244 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T18:23:52.016+02:00 DEBUG 2244 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:24:15.055+02:00 DEBUG 2244 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:28:04.621+02:00  INFO 2244 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:28:04.621+02:00  INFO 2244 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T18:28:04.621+02:00 DEBUG 2244 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:28:05.011+02:00  WARN 2244 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T18:28:05.011+02:00  INFO 2244 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T18:28:05.167+02:00  INFO 2244 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T18:28:12.052+02:00  INFO 28196 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 28196 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T18:28:12.052+02:00 DEBUG 28196 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T18:28:12.052+02:00  INFO 28196 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T18:28:12.131+02:00  INFO 28196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T18:28:12.131+02:00  INFO 28196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T18:28:12.614+02:00  INFO 28196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T18:28:12.661+02:00  INFO 28196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2024-06-06T18:28:13.489+02:00  INFO 28196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T18:28:13.505+02:00  INFO 28196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T18:28:13.505+02:00  INFO 28196 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T18:28:13.567+02:00  INFO 28196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:28:13.567+02:00  INFO 28196 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1436 ms
+2024-06-06T18:28:13.598+02:00  INFO 28196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T18:28:13.802+02:00  INFO 28196 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T18:28:13.802+02:00  INFO 28196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T18:28:13.802+02:00  INFO 28196 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T18:28:13.958+02:00  INFO 28196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T18:28:14.005+02:00  INFO 28196 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T18:28:14.192+02:00  WARN 28196 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T18:28:14.333+02:00  INFO 28196 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T18:28:15.017+02:00 DEBUG 28196 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:28:15.017+02:00 DEBUG 28196 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        membresia varchar(255),
+        nombre varchar(255),
+        primary key (id)
+    )
+2024-06-06T18:28:15.017+02:00  INFO 28196 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T18:28:15.032+02:00  INFO 28196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:28:15.322+02:00  WARN 28196 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T18:28:15.484+02:00  INFO 28196 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T18:28:15.711+02:00  INFO 28196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T18:28:15.753+02:00  INFO 28196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T18:28:15.768+02:00  INFO 28196 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 4.189 seconds (process running for 4.681)
+2024-06-06T18:28:19.816+02:00  INFO 28196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:28:19.816+02:00  INFO 28196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:28:19.822+02:00  INFO 28196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-06-06T18:28:20.163+02:00 DEBUG 28196 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:28:30.865+02:00 DEBUG 28196 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, membresia, nombre) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T18:28:32.632+02:00 DEBUG 28196 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:28:32.702+02:00 DEBUG 28196 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T18:28:37.693+02:00 DEBUG 28196 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:29:03.296+02:00 DEBUG 28196 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T18:29:03.302+02:00 DEBUG 28196 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    delete 
+    from
+        users 
+    where
+        id=?
+2024-06-06T18:29:05.159+02:00 DEBUG 28196 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:29:32.502+02:00 DEBUG 28196 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.membresia,
+        u1_0.nombre 
+    from
+        users u1_0
+2024-06-06T18:31:53.741+02:00  INFO 28196 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:31:53.741+02:00  INFO 28196 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T18:31:53.741+02:00 DEBUG 28196 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:31:54.131+02:00  WARN 28196 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T18:31:54.131+02:00  INFO 28196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T18:31:54.288+02:00  INFO 28196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T18:32:57.088+02:00  INFO 36508 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 36508 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T18:32:57.088+02:00 DEBUG 36508 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T18:32:57.088+02:00  INFO 36508 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T18:32:57.168+02:00  INFO 36508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T18:32:57.168+02:00  INFO 36508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T18:32:57.608+02:00  INFO 36508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T18:32:57.671+02:00  INFO 36508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2024-06-06T18:32:58.468+02:00  INFO 36508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T18:32:58.484+02:00  INFO 36508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T18:32:58.484+02:00  INFO 36508 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T18:32:58.546+02:00  INFO 36508 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:32:58.546+02:00  INFO 36508 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1378 ms
+2024-06-06T18:32:58.577+02:00  INFO 36508 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T18:32:58.781+02:00  INFO 36508 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T18:32:58.781+02:00  INFO 36508 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T18:32:58.796+02:00  INFO 36508 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T18:32:58.984+02:00  INFO 36508 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T18:32:59.046+02:00  INFO 36508 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T18:32:59.249+02:00  WARN 36508 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T18:32:59.390+02:00  INFO 36508 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T18:33:00.016+02:00 DEBUG 36508 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:33:00.016+02:00 DEBUG 36508 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        nombre varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2024-06-06T18:33:00.016+02:00  INFO 36508 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T18:33:00.031+02:00  INFO 36508 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:33:00.265+02:00  WARN 36508 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T18:33:00.406+02:00  INFO 36508 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T18:33:00.578+02:00  INFO 36508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T18:33:00.609+02:00  INFO 36508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T18:33:00.609+02:00  INFO 36508 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 3.989 seconds (process running for 4.463)
+2024-06-06T18:33:05.709+02:00  INFO 36508 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:33:05.709+02:00  INFO 36508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:33:05.709+02:00  INFO 36508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T18:33:06.038+02:00 DEBUG 36508 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:33:08.225+02:00 DEBUG 36508 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:33:08.970+02:00 DEBUG 36508 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:33:26.524+02:00  INFO 36508 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:33:26.524+02:00  INFO 36508 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T18:33:26.524+02:00 DEBUG 36508 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:33:26.913+02:00  WARN 36508 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T18:33:26.913+02:00  INFO 36508 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T18:33:27.070+02:00  INFO 36508 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T18:33:31.251+02:00  INFO 31232 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 31232 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T18:33:31.251+02:00 DEBUG 31232 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T18:33:31.251+02:00  INFO 31232 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T18:33:31.333+02:00  INFO 31232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T18:33:31.333+02:00  INFO 31232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T18:33:31.771+02:00  INFO 31232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T18:33:31.818+02:00  INFO 31232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2024-06-06T18:33:32.615+02:00  INFO 31232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T18:33:32.631+02:00  INFO 31232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T18:33:32.631+02:00  INFO 31232 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T18:33:32.693+02:00  INFO 31232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:33:32.693+02:00  INFO 31232 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1360 ms
+2024-06-06T18:33:32.724+02:00  INFO 31232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T18:33:32.928+02:00  INFO 31232 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T18:33:32.928+02:00  INFO 31232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T18:33:32.943+02:00  INFO 31232 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T18:33:33.099+02:00  INFO 31232 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T18:33:33.162+02:00  INFO 31232 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T18:33:33.365+02:00  WARN 31232 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T18:33:33.521+02:00  INFO 31232 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T18:33:34.146+02:00 DEBUG 31232 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:33:34.162+02:00 DEBUG 31232 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        nombre varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2024-06-06T18:33:34.162+02:00  INFO 31232 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T18:33:34.162+02:00  INFO 31232 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:33:34.381+02:00  WARN 31232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T18:33:34.521+02:00  INFO 31232 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T18:33:34.709+02:00  INFO 31232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T18:33:34.740+02:00  INFO 31232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T18:33:34.740+02:00  INFO 31232 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 3.964 seconds (process running for 4.443)
+2024-06-06T18:33:39.284+02:00  INFO 31232 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:33:39.284+02:00  INFO 31232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:33:39.284+02:00  INFO 31232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T18:33:40.478+02:00 DEBUG 31232 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:33:53.411+02:00 DEBUG 31232 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, nombre, password) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T18:33:54.742+02:00 DEBUG 31232 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:33:54.799+02:00 DEBUG 31232 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T18:35:38.572+02:00  INFO 31232 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:35:38.572+02:00  INFO 31232 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T18:35:38.572+02:00 DEBUG 31232 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:35:38.963+02:00  WARN 31232 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T18:35:38.963+02:00  INFO 31232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T18:35:39.119+02:00  INFO 31232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T18:35:42.373+02:00  INFO 37312 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 37312 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T18:35:42.373+02:00 DEBUG 37312 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T18:35:42.373+02:00  INFO 37312 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T18:35:42.455+02:00  INFO 37312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T18:35:42.455+02:00  INFO 37312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T18:35:42.930+02:00  INFO 37312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T18:35:42.981+02:00  INFO 37312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2024-06-06T18:35:43.785+02:00  INFO 37312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T18:35:43.801+02:00  INFO 37312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T18:35:43.801+02:00  INFO 37312 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T18:35:43.863+02:00  INFO 37312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:35:43.863+02:00  INFO 37312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1408 ms
+2024-06-06T18:35:43.879+02:00  INFO 37312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T18:35:44.082+02:00  INFO 37312 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T18:35:44.082+02:00  INFO 37312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T18:35:44.098+02:00  INFO 37312 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T18:35:44.301+02:00  INFO 37312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T18:35:44.364+02:00  INFO 37312 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T18:35:44.567+02:00  WARN 37312 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T18:35:44.707+02:00  INFO 37312 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T18:35:45.317+02:00 DEBUG 37312 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:35:45.333+02:00 DEBUG 37312 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        nombre varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2024-06-06T18:35:45.333+02:00  INFO 37312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T18:35:45.333+02:00  INFO 37312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:35:45.567+02:00  WARN 37312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T18:35:45.708+02:00  INFO 37312 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T18:35:45.895+02:00  INFO 37312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T18:35:45.926+02:00  INFO 37312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T18:35:45.942+02:00  INFO 37312 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 4.032 seconds (process running for 4.519)
+2024-06-06T18:35:48.475+02:00  INFO 37312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:35:48.475+02:00  INFO 37312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:35:48.475+02:00  INFO 37312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T18:35:50.048+02:00 DEBUG 37312 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:35:54.264+02:00 DEBUG 37312 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, nombre, password) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T18:35:55.654+02:00 DEBUG 37312 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:35:55.704+02:00 DEBUG 37312 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:36:33.260+02:00  INFO 37312 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:36:33.260+02:00  INFO 37312 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T18:36:33.260+02:00 DEBUG 37312 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:36:33.651+02:00  WARN 37312 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T18:36:33.651+02:00  INFO 37312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T18:36:33.807+02:00  INFO 37312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T18:36:40.286+02:00  INFO 14624 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 14624 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T18:36:40.286+02:00 DEBUG 14624 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T18:36:40.286+02:00  INFO 14624 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T18:36:40.367+02:00  INFO 14624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T18:36:40.367+02:00  INFO 14624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T18:36:40.811+02:00  INFO 14624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T18:36:40.858+02:00  INFO 14624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2024-06-06T18:36:41.720+02:00  INFO 14624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T18:36:41.736+02:00  INFO 14624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T18:36:41.736+02:00  INFO 14624 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T18:36:41.798+02:00  INFO 14624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:36:41.798+02:00  INFO 14624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1431 ms
+2024-06-06T18:36:41.829+02:00  INFO 14624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T18:36:42.012+02:00  INFO 14624 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T18:36:42.012+02:00  INFO 14624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T18:36:42.028+02:00  INFO 14624 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T18:36:42.215+02:00  INFO 14624 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T18:36:42.271+02:00  INFO 14624 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T18:36:42.464+02:00  WARN 14624 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T18:36:42.616+02:00  INFO 14624 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T18:36:43.242+02:00 DEBUG 14624 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:36:43.257+02:00 DEBUG 14624 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        nombre varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2024-06-06T18:36:43.257+02:00  INFO 14624 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T18:36:43.257+02:00  INFO 14624 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:36:43.543+02:00  WARN 14624 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T18:36:43.694+02:00  INFO 14624 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T18:36:43.891+02:00  INFO 14624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T18:36:43.937+02:00  INFO 14624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T18:36:43.937+02:00  INFO 14624 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 4.144 seconds (process running for 4.689)
+2024-06-06T18:36:44.089+02:00  INFO 14624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:36:44.089+02:00  INFO 14624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:36:44.089+02:00  INFO 14624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T18:36:45.896+02:00 DEBUG 14624 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:36:48.492+02:00 DEBUG 14624 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, nombre, password) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T18:36:49.951+02:00 DEBUG 14624 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:36:50.008+02:00 DEBUG 14624 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:37:25.908+02:00  INFO 14624 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:37:25.908+02:00  INFO 14624 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T18:37:25.908+02:00 DEBUG 14624 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:37:26.299+02:00  WARN 14624 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T18:37:26.299+02:00  INFO 14624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T18:37:26.455+02:00  INFO 14624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T18:37:30.842+02:00  INFO 22156 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 22156 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T18:37:30.842+02:00 DEBUG 22156 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T18:37:30.842+02:00  INFO 22156 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T18:37:30.918+02:00  INFO 22156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T18:37:30.918+02:00  INFO 22156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T18:37:31.364+02:00  INFO 22156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T18:37:31.411+02:00  INFO 22156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2024-06-06T18:37:32.236+02:00  INFO 22156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T18:37:32.251+02:00  INFO 22156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T18:37:32.251+02:00  INFO 22156 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T18:37:32.311+02:00  INFO 22156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:37:32.311+02:00  INFO 22156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1393 ms
+2024-06-06T18:37:32.341+02:00  INFO 22156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T18:37:32.541+02:00  INFO 22156 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T18:37:32.541+02:00  INFO 22156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T18:37:32.557+02:00  INFO 22156 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T18:37:32.713+02:00  INFO 22156 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T18:37:32.775+02:00  INFO 22156 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T18:37:32.994+02:00  WARN 22156 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T18:37:33.135+02:00  INFO 22156 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T18:37:33.767+02:00 DEBUG 22156 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:37:33.782+02:00 DEBUG 22156 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        nombre varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2024-06-06T18:37:33.782+02:00  INFO 22156 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T18:37:33.782+02:00  INFO 22156 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:37:34.017+02:00  WARN 22156 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T18:37:34.142+02:00  INFO 22156 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T18:37:34.361+02:00  INFO 22156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T18:37:34.390+02:00  INFO 22156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T18:37:34.406+02:00  INFO 22156 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 4.084 seconds (process running for 4.576)
+2024-06-06T18:37:41.971+02:00  INFO 22156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:37:41.972+02:00  INFO 22156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:37:41.972+02:00  INFO 22156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T18:37:43.565+02:00 DEBUG 22156 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:37:47.936+02:00 DEBUG 22156 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, nombre, password) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T18:37:49.038+02:00 DEBUG 22156 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:37:49.095+02:00 DEBUG 22156 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T18:40:30.259+02:00  INFO 22156 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:40:30.259+02:00  INFO 22156 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-06-06T18:40:30.259+02:00 DEBUG 22156 --- [SpringApplicationShutdownHook] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:40:30.651+02:00  WARN 22156 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-06T18:40:30.651+02:00  INFO 22156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-06T18:40:30.808+02:00  INFO 22156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-06T18:40:40.105+02:00  INFO 19108 --- [restartedMain] es.dws.PracticaSD.Application            : Starting Application using Java 20.0.1 with PID 19108 (C:\Users\laura\Desktop\SD_PracticeEO_LGG\target\classes started by laura in C:\Users\laura\Desktop\SD_PracticeEO_LGG)
+2024-06-06T18:40:40.105+02:00 DEBUG 19108 --- [restartedMain] es.dws.PracticaSD.Application            : Running with Spring Boot v3.0.2, Spring v6.0.4
+2024-06-06T18:40:40.105+02:00  INFO 19108 --- [restartedMain] es.dws.PracticaSD.Application            : No active profile set, falling back to 1 default profile: "default"
+2024-06-06T18:40:40.181+02:00  INFO 19108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-06T18:40:40.181+02:00  INFO 19108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-06T18:40:40.631+02:00  INFO 19108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-06T18:40:40.678+02:00  INFO 19108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2024-06-06T18:40:41.506+02:00  INFO 19108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-06T18:40:41.521+02:00  INFO 19108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-06T18:40:41.521+02:00  INFO 19108 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-06-06T18:40:41.584+02:00  INFO 19108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-06T18:40:41.584+02:00  INFO 19108 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1403 ms
+2024-06-06T18:40:41.615+02:00  INFO 19108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-06T18:40:41.802+02:00  INFO 19108 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-06T18:40:41.802+02:00  INFO 19108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-06T18:40:41.818+02:00  INFO 19108 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-06T18:40:41.990+02:00  INFO 19108 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-06T18:40:42.052+02:00  INFO 19108 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-06T18:40:42.224+02:00  WARN 19108 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-06T18:40:42.365+02:00  INFO 19108 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-06T18:40:42.965+02:00 DEBUG 19108 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    drop table if exists users cascade 
+2024-06-06T18:40:42.980+02:00 DEBUG 19108 --- [restartedMain] org.hibernate.SQL                        : 
+    
+    create table users (
+       id bigint generated by default as identity,
+        edad integer not null,
+        nombre varchar(255),
+        password varchar(255),
+        primary key (id)
+    )
+2024-06-06T18:40:42.980+02:00  INFO 19108 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-06T18:40:42.980+02:00  INFO 19108 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-06T18:40:43.230+02:00  WARN 19108 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-06T18:40:43.386+02:00  INFO 19108 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-06T18:40:43.574+02:00  INFO 19108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-06T18:40:43.605+02:00  INFO 19108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-06T18:40:43.621+02:00  INFO 19108 --- [restartedMain] es.dws.PracticaSD.Application            : Started Application in 3.991 seconds (process running for 4.465)
+2024-06-06T18:40:51.041+02:00  INFO 19108 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-06T18:40:51.041+02:00  INFO 19108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-06T18:40:51.041+02:00  INFO 19108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-06T18:40:52.507+02:00 DEBUG 19108 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:40:53.774+02:00 DEBUG 19108 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (id, edad, nombre, password) 
+    values
+        (default, ?, ?, ?)
+2024-06-06T18:40:54.821+02:00 DEBUG 19108 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0
+2024-06-06T18:40:54.880+02:00 DEBUG 19108 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2024-06-06T18:42:10.837+02:00 DEBUG 19108 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.edad,
+        u1_0.nombre,
+        u1_0.password 
+    from
+        users u1_0 
+    where
+        u1_0.id=?

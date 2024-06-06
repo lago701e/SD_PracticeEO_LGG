@@ -30,7 +30,7 @@ public class UserService {
         if (user != null) {
             user.setNombre(userDetails.getNombre());
             user.setEdad(userDetails.getEdad());
-            user.setMembresia(userDetails.getMembresia());
+            user.setPassword(userDetails.getPassword());
             return userRepository.save(user);
         }
         return null;
