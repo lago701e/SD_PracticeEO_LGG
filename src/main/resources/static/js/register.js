@@ -1,48 +1,55 @@
-function login() {
-  var username = document.getElementById('login-username').value;
-  var password = document.getElementById('login-password').value;
+document.addEventListener('DOMContentLoaded', function() {
+    fetchUsers();
+});
 
-  // Validación básica
-  if (username.trim() === '' || password.trim() === '') {
-    alert('Por favor, ingresa un nombre de usuario y una contraseña');
-    return;
-  }
-
-  // Aquí puedes realizar la validación y autenticación del usuario
-  // utilizando los datos ingresados en los campos de inicio de sesión
-
-  // Ejemplo de validación básica
-  if (username === 'usuario' && password === 'contraseña') {
-    alert('Inicio de sesión exitoso');
-    // Redirigir a la página principal, por ejemplo:
-    // window.location.href = 'home.html';
-  } else {
-    alert('Nombre de usuario o contraseña incorrectos');
-  }
+function fetchUsers() {
+    fetch('/api/users')
+        .then(response => response.json())
+        .then(data => {
+            const userList = document.getElementById('user-list');
+            userList.innerHTML = '<h2>Lista de Usuarios</h2>';
+            data.forEach(user => {
+                const userItem = document.createElement('div');
+                userItem.className = 'user-item';
+                userItem.innerHTML = `
+                    <p>ID: ${user.id}</p>
+                    <p>Nombre: ${user.nombre}</p>
+                    <p>Edad: ${user.edad}</p>
+                    <p>Membresía: ${user.membresia}</p>
+                    <button onclick="deleteUser(${user.id})">Eliminar</button>
+                `;
+                userList.appendChild(userItem);
+            });
+        });
 }
 
-function register() {
-  var username = document.getElementById('register-username').value;
-  var password = document.getElementById('register-password').value;
-  var email = document.getElementById('register-email').value;
+function createUser() {
+    const nombre = document.getElementById('nombre').value;
+    const edad = document.getElementById('edad').value;
+    const membresia = document.getElementById('membresia').value;
 
-  // Validación básica
-  if (username.trim() === '' || password.trim() === '' || email.trim() === '') {
-    alert('Por favor, completa todos los campos del formulario de registro');
-    return;
-  }
+    fetch('/api/users', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ nombre, edad, membresia })
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert('Usuario creado con éxito!');
+        fetchUsers();
+    });
+}
 
-  // Aquí puedes realizar la validación y registro del nuevo usuario
-  // utilizando los datos ingresados en los campos de registro
-
-  // Ejemplo de validación básica
-  if (username === 'usuario' && password === 'contraseña') {
-    alert('Registro exitoso');
-    // Limpiar los campos del formulario de registro
-    document.getElementById('register-username').value = '';
-    document.getElementById('register-password').value = '';
-    document.getElementById('register-email').value = '';
-  } else {
-    alert('Error al registrar el usuario');
-  }
+function deleteUser(id) {
+    fetch(`/api/users/${id}`, {
+        method: 'DELETE'
+    })
+    .then(response => {
+        if (response.ok) {
+            alert('Usuario eliminado con éxito!');
+            fetchUsers();
+        } else {
+            alert('Error al eliminar el usuario.');
+        }
+    });
 }
