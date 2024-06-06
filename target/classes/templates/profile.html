@@ -1,47 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <link href="/css/profile.css"/>
+  <title>Perfil de Usuario</title>
+  <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .profile { border: 1px solid #ccc; padding: 20px; border-radius: 5px; }
+        .profile h2 { margin-top: 0; }
+        .profile p { margin: 10px 0; }
+        button { padding: 10px 20px; background: #007BFF; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+    </style>
 </head>
-  <div class="container d-flex justify-content-center mt-5">
-
-    <div class="card">
-
-      <div class="top-container">
-
-        <img src="https://i.imgur.com/G1pXs7D.jpg" class="img-fluid profile-image" width="70">
-
-        <div class="ml-3">
-          <h5 class="name">Clarke Jeffery</h5>
-          <p class="mail">clark@zmail.com</p>
-        </div>
-      </div>
-
-
-      <div class="middle-container d-flex justify-content-between align-items-center mt-3 p-2">
-        <div class="dollar-div px-3">
-
-          <div class="round-div"><i class="fa fa-dollar dollar"></i></div>
-
-        </div>
-        <div class="d-flex flex-column text-right mr-2">
-          <span class="current-balance">Current Balance</span>
-          <span class="amount"><span class="dollar-sign">$</span>1476</span>
-        </div>
-
-      </div>
-
-      <div class="recent-border mt-4">
-        <span class="recent-orders">Recent orders</span>
-      </div>
-      <div class="wishlist-border pt-2">
-        <span class="wishlist">Wishlist</span>
-      </div>
-      <div class="fashion-studio-border pt-2">
-        <span class="fashion-studio">Fashion studio</span>
-      </div>
-
-    </div>
-
+<body>
+<div class="container">
+  <div class="profile" id="profile">
+    <h2>Perfil de Usuario</h2>
+    <p><strong>Nombre:</strong> <span id="nombre"></span></p>
+    <p><strong>Edad:</strong> <span id="edad"></span></p>
+    <p><strong>Membresía:</strong> <span id="membresia"></span></p>
+    <button onclick="editProfile()">Editar Perfil</button>
   </div>
+</div>
+<script src="/js/profile.js"></script>
+</body>
 </html>

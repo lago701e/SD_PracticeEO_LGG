@@ -37,6 +37,8 @@ function createUser() {
     .then(data => {
         alert('Usuario creado con éxito!');
         fetchUsers();
+        window.location.href = '/profile.html?id=' + data.id; // Redirige a la página de perfil
+
     });
 }
 
