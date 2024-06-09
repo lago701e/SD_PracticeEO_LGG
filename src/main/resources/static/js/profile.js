@@ -32,3 +32,5 @@ function editProfile() {
     // Lógica para editar el perfil
 }
 
+
+

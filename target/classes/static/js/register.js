@@ -36,9 +36,18 @@ function createUser() {
     .then(response => response.json())
     .then(data => {
         alert('Usuario creado con éxito!');
-        fetchUsers();
-        window.location.href = '/profile.html?id=' + data.id; // Redirige a la página de perfil
+        // Guardar datos del usuario en localStorage
+        localStorage.setItem('userId', data.id);
+        localStorage.setItem('userNombre', data.nombre);
+        localStorage.setItem('userEdad', data.edad);
+        localStorage.setItem('userPassword', data.password);
 
+        // Redirigir a la página de perfil
+        window.location.href = '/profile.html';
+    })
+    .catch(error => {
+        alert('Error al crear el usuario. Inténtalo de nuevo.');
+        console.error('There was a problem with the fetch operation:', error);
     });
 }
 
